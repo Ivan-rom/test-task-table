@@ -2,17 +2,22 @@
 
 This template should help get you started developing with Vue 3 in Vite.
 
-## run-instructions
+## Run instructions
 
-At first download project and open terminal.
-Write in terminal "npm i" to download all dependencies.
+1. At first download project and open terminal.
+2. Write in terminal `npm i` to download all dependencies.
 
-To start the app in development mode, wrhite in terminal "npm run start", it will start local server with database and open browser automatically.
+### Development mode
 
-To start the app in production mode, write in terminal "npm run build", it will build the project in dist folder.
-Then to start local server for database, write in terminal "npm run server".
-Then to open the built app, write in terminal "serve .".
-Here you can get an error. To solve it you have to run Powershell as administrator, and run this command "Set-ExecutionPolicy Unrestricted". Then rerun "serve ." in terminal.
+1. Write in terminal `npm run start`, it will start local server with database and open browser automatically.
+
+### Production mode
+
+1. Write in terminal `npm run build`, it will build the project in dist folder.
+2. To start local server for database, write in terminal `npm run server`.
+3. To open the built app, write in terminal `serve .`.
+
+- Here you can get an error. To solve it you have to run Powershell as administrator, and run this command `Set-ExecutionPolicy Unrestricted`. Then rerun `serve .` in terminal.
 
 ## Recommended IDE Setup
 
