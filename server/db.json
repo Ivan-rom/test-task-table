@@ -1,0 +1,72 @@
+{
+  "names": ["project_profit", "some_data", "projects_status"],
+  "project_profit": {
+    "header": [
+      { "id": "project_name", "type": "string", "caption": "Project name" },
+      {
+        "id": "total_by_project",
+        "type": "float",
+        "caption": "Total by project"
+      },
+      {
+        "id": "project_type",
+        "type": "string",
+        "caption": "Project type",
+        "align": "center"
+      },
+      { "id": "jan", "type": "float", "caption": "Jan" },
+      { "id": "feb", "type": "float", "caption": "Feb" }
+    ],
+    "data": [
+      ["Mimesis", 1024.3, "commercial", 2048.2, 4096.0],
+      ["Mako", 2345.1, "internal", 3465.3, { "d": 12.5, "color": "selected" }],
+      ["Edelweiss", 54.4, "commercial", 564.8, 4652.3]
+    ]
+  },
+  "some_data": {
+    "header": [
+      { "id": "project_name", "type": "string", "caption": "Project name" },
+      {
+        "id": "total_by_project",
+        "type": "float",
+        "caption": "Total by project"
+      },
+      {
+        "id": "project_type",
+        "type": "string",
+        "caption": "Project type",
+        "align": "center"
+      },
+      { "id": "jan", "type": "float", "caption": "Jan" },
+      { "id": "feb", "type": "float", "caption": "Feb" },
+      { "id": "mar", "type": "float", "caption": "Mar", "align": "center" }
+    ],
+    "data": [
+      ["Edelweiss", 54.4, "commercial", 0, 0, 0],
+      ["Mimesis", 1024.3, "commercial", 0, 0, 70],
+      [
+        "Mako",
+        2345.1,
+        "internal",
+        3465.3,
+        4892.7,
+        { "d": 12.5, "color": "selected" }
+      ]
+    ]
+  },
+  "projects_status": {
+    "header": [
+      { "id": "project_name", "type": "string", "caption": "Project name" },
+      {
+        "id": "project_status",
+        "type": "boolean",
+        "caption": "Project status"
+      }
+    ],
+    "data": [
+      ["Mimesis", false],
+      ["Mako", true],
+      ["Edelweiss", { "d": true, "color": "selected" }]
+    ]
+  }
+}
